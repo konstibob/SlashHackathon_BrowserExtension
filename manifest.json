@@ -1,18 +1,11 @@
 {
-    "manifest_version" : 2,
+    "manifest_version" : 3,
     "name" : "lass namen spaeter raussuchen",
     "description" : "Zaehle deinen CO2 verbauch durchs Browsen",
-    "version" : "1.0",
+    "version" : "0.1",
     "icons": {
     "16": "/images/monte16x16.png",
     "48": "/images/monte48x48.png",
     "128": "/images/monte128x128.png"
-    },
-    "page_action": {
-        "default_icon": {
-            "16": "/images/monte16x16_2.png",
-            "48": "/images/monte48x48_2.png",
-            "128": "/images/monte128x128_2.png"
-        }
     }
 }   
