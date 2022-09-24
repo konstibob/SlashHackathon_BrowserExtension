@@ -1,11 +1,30 @@
 {
-    "manifest_version" : 3,
     "name" : "lass namen spaeter raussuchen",
     "description" : "Zaehle deinen CO2 verbauch durchs Browsen",
-    "version" : "0.1",
+    "version": "0.1.0",
+    "manifest_version" : 3,
     "icons": {
-    "16": "/images/monte16x16.png",
-    "48": "/images/monte48x48.png",
-    "128": "/images/monte128x128.png"
-    }
-}   
+        "16": "/images/monte16x16.png",
+        "48": "/images/monte48x48.png",
+        "128": "/images/monte128x128.png"
+    },
+
+    "action": {
+        "default_popup" : "/popup.html",
+        "default_icons": {
+            "16": "/images/monte16x16.png",
+            "48": "/images/monte48x48.png",
+            "128": "/images/monte128x128.png"
+        }
+    },
+    "options_page": "./options.html",
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "storage",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://www.google.com/*"
+    ]
+}
