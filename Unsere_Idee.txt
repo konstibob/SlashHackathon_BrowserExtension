@@ -1,0 +1,1 @@
+Unsere Idee ist es eine Browser Extension zu schreiben, die Trackt, wieviel CO² der Nutzer beim verwenden des Browsers verbaucht.
