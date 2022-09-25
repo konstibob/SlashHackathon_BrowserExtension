@@ -11,9 +11,9 @@
 		"storage"
 	],
     "icons": {
-        "16": "/images/monte16x16.png",
-        "48": "/images/monte48x48.png",
-        "128": "/images/monte128x128.png"
+        "16": "/images/khalid_logo16x16.png",
+        "48": "/images/khalid_logo48x48.png",
+        "128": "/images/khalid_logo.png"
     },
 
     "background": {
