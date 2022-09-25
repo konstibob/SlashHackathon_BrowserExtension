@@ -1,29 +1,43 @@
 {
-    "name" : "lass namen spaeter raussuchen",
+    "name" : "track your CO2 emission",
     "description" : "Zaehle deinen CO2 verbauch durchs Browsen",
     "version": "0.1.0",
     "manifest_version" : 3,
+    "permissions": [
+        "tabs",
+        "history",
+		"contextMenus",
+		"notifications",
+		"storage"
+	],
     "icons": {
         "16": "/images/monte16x16.png",
         "48": "/images/monte48x48.png",
         "128": "/images/monte128x128.png"
     },
 
+    "background": {
+        "service_worker": "background.js"
+    },
+
     "action": {
-        "default_popup" : "/popup.html",
+        "default_popup" : "popup.html",
         "default_icons": {
             "16": "/images/monte16x16.png",
             "48": "/images/monte48x48.png",
             "128": "/images/monte128x128.png"
         }
     },
-    "options_page": "./options.html",
+
+    "options_page": "options.html",
     "permissions": [
+        "history",
         "activeTab",
         "tabs",
         "storage",
         "scripting"
     ],
+
     "host_permissions": [
         "https://www.google.com/*"
     ]

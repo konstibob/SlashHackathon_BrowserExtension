@@ -1,0 +1,19 @@
+body {
+    min-width: 400px; /* your desired width */
+    background-color:dimgray;
+  }
+
+p {
+font-size: medium;
+text-align: center;
+color:white;
+}
+h1 {
+text-align: center;
+color:darkseagreen;
+
+}
+img {
+float:left;
+}
+
